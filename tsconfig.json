@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+
+    "lib": ["es2022","dom"],
+    "module": "commonjs",
+    "target": "es2022",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+
+    "sourceMap": true,
+    "outDir": "./dist",
+    "experimentalDecorators": true
+
+  },
+  "files": ["./src/index.ts"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compileOnSave": true
+}
