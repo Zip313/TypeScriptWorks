@@ -1,9 +1,8 @@
-# HW Project TS
+# HW1 Project TS Yurkov.KA
 
-- clone project
-</br>
+- mkdir proj
+- cd proj
+- git clone https://github.com/Zip313/TypeScriptWorks.git
 - npm install
-</br>
 - npm run build
-</br>
-- Open index.html
+- open index.html
